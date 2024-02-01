@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Customize
+/deploy/docker/volumes/*
+
+/src/logs/*.log
+config.ini
+.idea
+
+/src/checkpoint
+
+/src/data_source/*
+/src/tmp/*
+/src/data/*
+
+test.py
+!.gitkeep
